@@ -1,4 +1,5 @@
 #first question
+# show me how can you handle a error?
 try:
    file=open("sample.txt","rt")
    file.read()
@@ -6,7 +7,7 @@ except TypeError:
    print("TypeError")
 
 #second question
-
+# show how can you append a new written file?
 
 data = input("Enter some text to write in the file: ")
 
@@ -26,5 +27,6 @@ print("\nFinal content of output.txt:")
 with open("output.txt", "r") as file:
     content = file.read()
     print(content)
+
 
 
